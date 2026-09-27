@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.MugaruTv" parent="android:Theme.Material.NoActionBar">
+    <style name="Theme.KbTkKhadijahWonorejoTv" parent="android:Theme.Material.NoActionBar">
         <item name="android:statusBarColor">#FFFFFF</item>
         <item name="android:navigationBarColor">#FFFFFF</item>
     </style>
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#FFFFFF</item>
-        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
-        <item name="postSplashScreenTheme">@style/Theme.MugaruTv</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowSplashScreenBackground">#F8FCF4</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/transparent_splash_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.KbTkKhadijahWonorejoTv</item>
     </style>
 </resources>

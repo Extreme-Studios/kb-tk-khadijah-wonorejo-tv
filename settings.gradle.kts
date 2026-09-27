@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MUGARU TV"
+rootProject.name = "KB TK Khadijah Wonorejo TV"
 include(":app")

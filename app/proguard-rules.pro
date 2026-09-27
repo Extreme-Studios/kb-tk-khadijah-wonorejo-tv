@@ -5,8 +5,8 @@
 -keep class kotlin.Metadata { *; }
 
 # Keep app package entry points.
--keep class com.mugarutv.MainActivity { *; }
--keep class com.mugarutv.playback.PlaybackNotificationService { *; }
+-keep class com.kbtkkhadijahwonorejotv.MainActivity { *; }
+-keep class com.kbtkkhadijahwonorejotv.playback.PlaybackNotificationService { *; }
 
 # Keep enum values and names when used in UI state.
 -keepclassmembers enum * {
